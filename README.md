@@ -5,7 +5,7 @@ This respository contains the learning documents for GitHub components.
 - Download and install git from https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe
 - Download and Install PyCharm Community Version from https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC
 
-**On Windows Machine.
+**On Windows Machine.**
 ```
 git --version
 git init
@@ -15,7 +15,7 @@ git branch
 * main
 ```
 
-**On PyCharm
+**On PyCharm**
 
 Open the folder in Pycharm. Create a new file in the same folder and save it.
 ```
