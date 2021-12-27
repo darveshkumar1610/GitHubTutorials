@@ -19,11 +19,12 @@ git branch
 
 Open the folder in Pycharm. Create a new file in the same folder and save it.
 ```
-git add My_First_Python.py
-git status
 git config --global user.email "darveshkumar1610@gmail.com"           # To set your account's default identity.
 git config --global user.name "Darvesh"
-git commit -m "First Python Prog added"
+
+git status
+git add <file(s)>
+git commit -m "message"
 git branch
 git push origin main
 ```
