@@ -5,8 +5,8 @@ This respository contains the learning documents for GitHub components.
 - Terminology Used: Directory & Change Directory (cd) , Terminal, CLI, Code Editor
 - Reporsitory: Project or folder where project is kept
 - GitHub: Website where we host all of our git repositories. Being online it is easy to work in groups with other people and organize our projects into a portfolio to show potential employers.
-- GitLab and Team Foundation Server are the tools integrating project management and build pipeline features.
-- For on-premise setup, teams can use Git, Subversion, CVS, etc.
+- GitLab and Team Foundation Server are the tools integrating **project management** and **build pipeline** features.
+- For **on-premise setup**, teams can use Git, Subversion, CVS, etc.
 
 ## Git and PyCharm Installation
 - Download and install git from https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe
