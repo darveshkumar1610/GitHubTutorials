@@ -43,17 +43,18 @@ git push origin main
 - add: Track our files and changes in Git
 - commit: Save our files locally.
 
-`## SSH-Key need to generate & setup for access to git.
- ssh-keygen -t rsa -b 4096 -C "email@example.com"
-- Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.`
+### SSH-Key need to generate & setup for access to git.
+- ssh-keygen -t rsa -b 4096 -C "email@example.com"
+- Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.
 
 - push: Upload Git commits to a remote repo like GitHub
 - pull: Download changes from remote repo to local machine.
 
-git remote add origin <new git-repo>		# To add new repo as new origin to push/pull
-git remote -v								# To verfiy git push/pull repo.
-
-git push -u origin master					# To set upstream or default origin as master to avoid using "origin master" again n again.
+```
+git remote add origin <new git-repo>		 # To add new repo as new origin to push/pull
+git remote -v								                  # To verfiy git push/pull repo.
+git push -u origin master					         # To set upstream or default origin as master to avoid using "origin master" again n again.
+```
 
 ## Steps to use Git
 1. Signup on GitHub.
