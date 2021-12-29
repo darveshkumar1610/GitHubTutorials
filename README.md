@@ -43,7 +43,7 @@ git push origin main
 - **add**: Track our files and changes in Git
 - **commit**: Save our files locally.
 
--- SSH-Key need to generate & setup for access to git.
+- SSH-Key generate & setup for access to git.
   - ssh-keygen -t rsa -b 4096 -C "email@example.com"
   - Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.
 
