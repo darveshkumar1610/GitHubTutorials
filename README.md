@@ -1,11 +1,11 @@
 # GitHubTutorials
 This respository contains the learning documents for GitHub components.
 
-- Git is a tool that tracks the changes over time. 
+- **Git** is a tool that tracks the changes over time. 
 - Terminology Used: Directory & Change Directory (cd) , Terminal, CLI, Code Editor
 - Reporsitory: Project or folder where project is kept
-- GitHub: Website where we host all of our git repositories. Being online it is easy to work in groups with other people and organize our projects into a portfolio to show potential employers.
-- GitLab and Team Foundation Server are the tools integrating **project management** and **build pipeline** features.
+- **GitHub**: Website where we host all of our git repositories. Being online it is easy to work in groups with other people and organize our projects into a portfolio to show potential employers.
+- **GitLab** and Team Foundation Server are the tools integrating **project management** and **build pipeline** features.
 - For **on-premise setup**, teams can use Git, Subversion, CVS, etc.
 
 ## Git and PyCharm Installation
@@ -38,17 +38,17 @@ git push origin main
 
 # Mostly used Git Commands:
 
-- init: Initialize empty git repository in any new folder/directory.
-- clone:Bring a repository into a folder on our local machine from GitHub
-- add: Track our files and changes in Git
-- commit: Save our files locally.
+- **init**: Initialize empty git repository in any new folder/directory.
+- **clone**:Bring a repository into a folder on our local machine from GitHub
+- **add**: Track our files and changes in Git
+- **commit**: Save our files locally.
 
-- SSH-Key need to generate & setup for access to git.
+-- SSH-Key need to generate & setup for access to git.
   - ssh-keygen -t rsa -b 4096 -C "email@example.com"
   - Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.
 
-- push: Upload Git commits to a remote repo like GitHub
-- pull: Download changes from remote repo to local machine.
+- **push**: Upload Git commits to a remote repo like GitHub
+- **pull**: Download changes from remote repo to local machine.
 
 ```
 git remote add origin <new git-repo>		 # To add new repo as new origin to push/pull
