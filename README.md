@@ -43,17 +43,17 @@ git push origin main
 - add: Track our files and changes in Git
 - commit: Save our files locally.
 
-### SSH-Key need to generate & setup for access to git.
-- ssh-keygen -t rsa -b 4096 -C "email@example.com"
-- Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.
+- SSH-Key need to generate & setup for access to git.
+  - ssh-keygen -t rsa -b 4096 -C "email@example.com"
+  - Copy the content of key.pub to GitHub > Settings > SSH and GPG Keys and use other private key on local machine to access Git repository.
 
 - push: Upload Git commits to a remote repo like GitHub
 - pull: Download changes from remote repo to local machine.
 
 ```
 git remote add origin <new git-repo>		 # To add new repo as new origin to push/pull
-git remote -v								                  # To verfiy git push/pull repo.
-git push -u origin master					         # To set upstream or default origin as master to avoid using "origin master" again n again.
+git remote -v								             # To verfiy git push/pull repo.
+git push -u origin master					       # To set upstream or default origin as master to avoid using "origin master" again n again.
 ```
 
 ## Steps to use Git
@@ -63,16 +63,16 @@ git push -u origin master					         # To set upstream or default origin as ma
 4. Commit new file.
 
 
-## GitHub Workflow
+#### GitHub Workflow
   Write Code > Commit Changes > Make a Pull request
-## Local Git Workflow 
+#### Local Git Workflow 
   Write Code > Stage Changes (git add) > Commit Changes (git commit) > Push Changes (git push) > make a pull request
 
 # Git Branching
 
-- Master Branch (main/Default): Commit#1 > Commit#2 > Commit#3
-- Feature Branch (Pull a branch from main > make changes > Commit & Push > Review and Merge with Main)
-- Hot Fix Branch (For any Bug Fix > Merge with Main)
+- **Master Branch** (main/Default): Commit#1 > Commit#2 > Commit#3
+- **Feature Branch** (Pull a branch from main > make changes > Commit & Push > Review and Merge with Main)
+- **Hot Fix Branch** (For any Bug Fix > Merge with Main)
 
 ```
 git branch								                            # To check the current branches. * is the current branch we are working in.
